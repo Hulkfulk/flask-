@@ -1,0 +1,12 @@
+.pricehead{text-align: center;padding-top:10px;}
+.pricecontent{margin-left:20px;border: 1px red;width: 150px;outline-style: solid;text-align: center;border-radius: 5px;outline-width: 0.5px;}
+.pricecontent h6{border: 1px;outline-style: solid;text-align: center;padding: 5px;border-top-left-radius: 5px;border-top-right-radius: 5px;background: rgb(235, 230, 230);outline-width: 0.5px;}
+.pricebtn h5{border:1px red;background: rgba(255, 255, 255, 0.767);width: 130px;border-radius: 5px;height: 20px;text-align: center;font-weight: normal;outline-style: solid;outline-color: rgb(0, 47, 255);outline-width: 1px;}
+.pricebtn{padding-left: 8px;padding-bottom: 10px;padding-top:8px;}
+.pricebtn h5:hover{background:rgb(0, 47, 255);cursor: pointer; }
+#pricedib{padding-left:10px;}
+.allprices{display:flex;margin-left: 150px;padding-top:20px;}
+.pricecontent p{font-size: 85%;padding: 5px;}
+.pricebtn2 h5{background:rgb(0, 102, 255);}
+
+.upperfooter{width:100%;height: 25px;background: rgb(24, 23, 23);margin-top:30px;text-align: center;}

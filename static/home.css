@@ -1,0 +1,44 @@
+.mainimg img{width:100%;height: 240px;box-shadow: 3px 3px 10px;padding-top:8px;}
+.row1{display: flex;position:relative;}
+.course1 img{width: 120px;height: 120px;padding-left: 80px;padding-top:10px;}
+.callcourse{text-align: center;}
+.callcourse a{text-decoration: none; color:rgb(255, 0, 200);}
+.course1 .courseinfo{padding-left:90px;position:absolute;padding-top:130px;font-size: 70%;}
+.course1 {display:flex;}
+.courseinfo h3{padding-left:45px}
+.courseinfo h6{border: 1px;background:rgb(0, 247, 255);text-align: center;font-size: 140%;border-radius: 7px;padding-top: 3px;}
+.row2{display:flex;position:absolute;padding-top:170px;}
+.course2 img{width: 120px;height: 120px;padding-left:80px;}
+.courseinformation{position:absolute;padding-top:295px;display:flex;}
+.courseinfo2{font-size:70%;padding-left:75px;}
+.courseinfo2 h3{margin-left: 40px;}
+.courseinfo2 h6{border: 1px;background:rgb(0, 247, 255);text-align: center;font-size: 140%;border-radius: 7px;padding: 3px;}
+.courses{background:rgba(255, 255, 255, 0.918);height: 265px;box-shadow: 4px 4px 30px;}
+.devloper{display:block;}
+#email{font-size:100%}
+
+.footer{display:flex;background-color:rgb(51, 47, 47);height: 200px;border: 1px red;position:relative;margin-top:0px;padding-top: 10px;padding-bottom: 0px;}
+.col{display:flex;font-size: 80%;flex-direction: column;padding-left:30px;}
+.col p a{text-decoration: none;color:rgb(182, 169, 169);}
+.upperfooter{width:100%;height: 25px;background: rgb(24, 23, 23);margin-top: 430px;text-align: center;}
+.upperfooter p a{text-decoration: none;color:white;font-size:70%;}
+@media screen and (max-width:500px){
+    .mainimg img{width:100%;}
+    .course1 img{width: 80px;height: 80px;padding-left: 30px;}
+    .course1 .courseinfo{padding-left:30px;font-size: 50%;padding-top:100px;}
+    .courseinfo h3{padding-left:25px}
+    .course2 img{width: 80px;height: 80px;padding-left:30px;padding-top:20px;}
+    .developer{display: none;}
+    .courseinfo2{font-size:50%;padding-left:25px;}
+}
+@media screen and (max-width:372px){
+    .mainimg img{width:100%;}
+    .course1 img{width: 80px;height: 80px;padding-left: 15px;}
+    .course1 .courseinfo{padding-left:12px;font-size: 50%;padding-top:100px;}
+    .courseinfo h3{padding-left:25px}
+    .course2 img{width: 80px;height: 80px;padding-left:15px;padding-top:20px;}
+    .developer{display: none;}
+    .courseinfo2{font-size:50%;padding-left:10px;}
+    #email{font-size:70%}
+    
+}
